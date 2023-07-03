@@ -1,0 +1,35 @@
+* {
+    background-color: rgb(177, 238, 177);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.heading {
+    font-size: 30px;
+    color: rgb(11, 109, 7);
+}
+div {
+    margin: 3px;
+    padding: 5px;
+}
+
+input,button {
+    border-radius: 15px;
+    text-align: center;
+    height: 25px;
+}
+button:hover {
+    background-color: rgb(22, 219, 81);
+    color: rgb(213, 230, 139);
+    height: 35px;
+}
+input:hover {
+    background-color: rgb(8, 253, 253);
+}
