@@ -29,9 +29,9 @@ function TimeCal() {
         <div className='rows'>First Reading</div>
         <input value={firstReading} onChange={firstChange} className='rows' className='firstNum' min={0} type="number"></input>
         <div className='rows'>Second Reading</div>
-        <input  value={secondReading} onChange={e=>setsecondReading(e.target.value)} name='second' className='rows' className='firstNum' min={0} type="number"></input>
+        <input  value={secondReading} onChange={e=>{setsecondReading(e.target.value);setshowDiv(false)}} name='second' className='rows' className='firstNum' min={0} type="number"></input>
         <div className='rows'>Price Per Hour</div>
-        <input value={pricePerHour} onChange={e=>setpricePerHour(e.target.value)} className='rows' className='firstNum' min={0} type="number"></input>
+        <input value={pricePerHour} onChange={e=>{setpricePerHour(e.target.value); setshowDiv(false)}} className='rows' className='firstNum' min={0} type="number"></input>
         <br/>
         <button onClick={TimeCal}>Submit</button>
         <br/>
