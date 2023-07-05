@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Time-Converter/static/css/main.e3d00c39.css",
+    "main.css": "/Time-Converter/static/css/main.ac82902c.css",
     "main.js": "/Time-Converter/static/js/main.d85e6947.js",
     "static/js/787.d3befce1.chunk.js": "/Time-Converter/static/js/787.d3befce1.chunk.js",
     "index.html": "/Time-Converter/index.html",
-    "main.e3d00c39.css.map": "/Time-Converter/static/css/main.e3d00c39.css.map",
+    "main.ac82902c.css.map": "/Time-Converter/static/css/main.ac82902c.css.map",
     "main.d85e6947.js.map": "/Time-Converter/static/js/main.d85e6947.js.map",
     "787.d3befce1.chunk.js.map": "/Time-Converter/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3d00c39.css",
+    "static/css/main.ac82902c.css",
     "static/js/main.d85e6947.js"
   ]
 }
